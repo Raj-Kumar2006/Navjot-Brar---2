@@ -5,14 +5,14 @@ const TELEGRAM = "https://t.me/+DS6t6RVXYNljN2Y1";
 
 export function TelegramCTA() {
   return (
-    <section className="relative py-14 md:py-20">
+    <section className="relative py-10 md:py-14">
       <div className="max-w-5xl mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
-          className="relative rounded-3xl overflow-hidden p-10 md:p-16 text-center gold-border"
+          className="relative rounded-3xl overflow-hidden p-8 md:p-12 text-center gold-border"
           style={{
             background:
               "linear-gradient(145deg, oklch(0.18 0.06 258) 0%, oklch(0.12 0.04 255) 100%)",
@@ -26,7 +26,7 @@ export function TelegramCTA() {
               <Send className="size-7 text-gold-foreground" />
             </div>
             <h2 className="text-3xl md:text-5xl font-semibold mb-4 max-w-2xl mx-auto">
-              Join the <span className="text-gradient-gold italic font-normal">Free Trading Community</span>
+              Join the <span className="text-gradient-gold font-normal">Free Trading Community</span>
             </h2>
             <p className="text-muted-foreground max-w-xl mx-auto mb-9 text-base md:text-lg">
               Access educational market discussions, chart studies, and learning-focused trading insights.

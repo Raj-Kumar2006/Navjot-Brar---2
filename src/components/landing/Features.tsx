@@ -26,7 +26,7 @@ const features = [
 
 export function Features() {
   return (
-    <section id="features" className="relative py-14 md:py-20">
+    <section id="features" className="relative py-10 md:py-14">
       <div className="max-w-6xl mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -38,7 +38,7 @@ export function Features() {
           <div className="text-xs tracking-[0.25em] text-gold uppercase mb-4">Why Choose</div>
           <h2 className="text-3xl md:text-5xl font-semibold">
             Why Traders Follow <br />
-            <span className="text-gradient-gold italic font-normal">Navjot Brar Official</span>
+            <span className="text-gradient-gold font-normal">Navjot Brar Official</span>
           </h2>
         </motion.div>
 

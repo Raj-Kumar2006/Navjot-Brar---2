@@ -5,7 +5,7 @@ const TELEGRAM = "https://t.me/+DS6t6RVXYNljN2Y1";
 
 export function Footer() {
   return (
-    <footer className="border-t border-border/50 pt-12 pb-8">
+    <footer className="border-t border-border/50 pt-8 pb-6">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-10">
           <div className="flex items-center gap-3">

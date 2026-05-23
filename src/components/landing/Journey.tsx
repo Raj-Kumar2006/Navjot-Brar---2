@@ -10,7 +10,7 @@ const steps = [
 
 export function Journey() {
   return (
-    <section id="journey" className="relative py-14 md:py-20">
+    <section id="journey" className="relative py-10 md:py-14">
       <div className="max-w-5xl mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -21,7 +21,7 @@ export function Journey() {
         >
           <div className="text-xs tracking-[0.25em] text-gold uppercase mb-4">The Process</div>
           <h2 className="text-3xl md:text-5xl font-semibold">
-            Your <span className="text-gradient-gold italic font-normal">Learning Path</span>
+            Your <span className="text-gradient-gold font-normal">Learning Path</span>
           </h2>
         </motion.div>
 

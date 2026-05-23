@@ -13,7 +13,7 @@ const badges = [
 
 export function Hero() {
   return (
-    <section id="top" className="relative pt-24 pb-16 md:pt-32 md:pb-20 overflow-hidden">
+    <section id="top" className="relative pt-20 pb-12 md:pt-28 md:pb-16 overflow-hidden">
       <div className="absolute inset-0 grid-bg opacity-40 pointer-events-none" />
       <div className="absolute top-1/4 -left-32 size-96 bg-gold/10 blur-[140px] rounded-full pointer-events-none" />
       <div className="absolute bottom-0 -right-32 size-96 bg-navy/40 blur-[140px] rounded-full pointer-events-none" />
@@ -38,7 +38,7 @@ export function Hero() {
           className="text-center text-4xl md:text-6xl lg:text-7xl font-semibold leading-[1.05] max-w-4xl mx-auto"
         >
           Learn Market Structure & <br className="hidden md:block" />
-          <span className="text-gradient-gold italic font-normal">Trading Psychology</span> with Clarity
+          <span className="text-gradient-gold font-normal">Trading Psychology</span> with Clarity
         </motion.h1>
 
         <motion.p

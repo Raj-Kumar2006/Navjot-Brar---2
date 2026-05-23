@@ -3,14 +3,14 @@ import { BookOpen } from "lucide-react";
 
 export function About() {
   return (
-    <section id="about" className="relative py-14 md:py-20">
+    <section id="about" className="relative py-10 md:py-14">
       <div className="max-w-4xl mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
-          className="glass-strong rounded-3xl p-8 md:p-14 text-center gold-border relative overflow-hidden"
+          className="glass-strong rounded-3xl p-6 md:p-10 text-center gold-border relative overflow-hidden"
         >
           <div className="absolute -top-20 left-1/2 -translate-x-1/2 size-60 bg-gold/15 blur-3xl rounded-full" />
           <div className="relative">
@@ -19,7 +19,7 @@ export function About() {
             </div>
             <div className="text-xs tracking-[0.25em] text-gold uppercase mb-3">About</div>
             <h2 className="text-3xl md:text-5xl font-semibold mb-6">
-              About <span className="text-gradient-gold italic font-normal">Navjot Brar Official</span>
+              About <span className="text-gradient-gold font-normal">Navjot Brar Official</span>
             </h2>
             <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
               Navjot Brar Official shares educational market insights, trading concepts, and structured
